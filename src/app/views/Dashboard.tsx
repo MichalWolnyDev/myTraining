@@ -1,8 +1,8 @@
-import { AppShell, Burger } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+import { AppShell, Burger } from '@mantine/core'
+import { useDisclosure } from '@mantine/hooks'
 
 const Dashboard = () => {
-  const [opened, { toggle }] = useDisclosure();
+  const [opened, { toggle }] = useDisclosure()
 
   return (
     <AppShell
@@ -10,7 +10,7 @@ const Dashboard = () => {
       navbar={{
         width: 300,
         breakpoint: 'sm',
-        collapsed: { mobile: !opened },
+        collapsed: { mobile: !opened }
       }}
       padding="md"
     >

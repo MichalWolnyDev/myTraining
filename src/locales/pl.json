@@ -1,0 +1,9 @@
+{
+  "auth": {
+    "login": "Zaloguj się",
+    "register": "Zarejestruj się"
+  },
+  "common": {
+    "back": "Wróć"
+  }
+}
